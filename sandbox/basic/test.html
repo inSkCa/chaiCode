@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chaiCode-Hitesh</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./test.css">
+</head>
+<body>
+    <header>
+        <span class="logo">
+            <img src="./chaiCodeLogo-removebg-preview.png" alt="chaiCode logo">
+        </span>
+        <h1 class="chaiColor">chaiCode</h1>
+        <p class="full-video-link grayColor">
+            <a href="https://www.youtube.com/watch?v=sscX432bMZo" target="_blank">Full video link here <i class="fa-solid fa-link"></i></a>
+        </p>
+    </header>
+    <main>
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active" data-content="home-content">Home</a></li>
+                    <li><a href="#" data-content="basics-content">Basics</a></li>
+                    <li><a href="#" data-content="intermediate-content">Intermediate</a></li>
+                    <li><a href="#" data-content="advance-content">Advance</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <section class="cards">
+            <h2 id="section-title"> <span class="chaiColor">JavaScript</span> by Hitesh</h2>
+            <div class="cards-content">
+                <div class="card" id="home-content">
+                    <div class="card-header-info">
+                        <span class="video-count"><small>video 1 </small><a href="https://www.youtube.com/watch?v=sscX432bMZo&t=1634s" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square grayColor"></i></a></span>
+                    </div>
+                    <h3>Topics Insight</h3>
+                    <p> var, let, const, console.log, console.table, github, github workspace</p>
+                </div>
+                <div class="card" id="basics-content" style="display:none;">
+                    <div class="card-header-info">
+                        <span class="video-count"><small>Basics video 1 </small><i class="fa-solid fa-arrow-up-right-from-square grayColor"></i></span>
+                    </div>
+                    <h3>Topics Insight</h3>
+                    <p> Introduction to JavaScript Basics</p>
+                </div>
+                <div class="card" id="intermediate-content" style="display:none;">
+                    <div class="card-header-info">
+                        <span class="video-count"><small>Intermediate video 1 </small><i class="fa-solid fa-arrow-up-right-from-square grayColor"></i></span>
+                    </div>
+                    <h3>Topics Insight</h3>
+                    <p> Intermediate JavaScript concepts</p>
+                </div>
+                <div class="card" id="advance-content" style="display:none;">
+                    <div class="card-header-info">
+                        <span class="video-count"><small>Advance video 1 </small><i class="fa-solid fa-arrow-up-right-from-square grayColor"></i></span>
+                    </div>
+                    <h3>Topics Insight</h3>
+                    <p> Advanced JavaScript techniques</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+
+    <script src="./test.js"></script>
+</body>
+</html>

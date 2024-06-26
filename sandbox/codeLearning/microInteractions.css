@@ -1,0 +1,19 @@
+@layer main-section-Button{
+    .animated-button {
+        position: relative;
+        display: inline-block;
+        border: none;
+        overflow: hidden;
+        transition: background-color 0.3s ease;
+    }
+
+    .arrow {
+        display: inline-block;
+        margin-left: 5px;
+        transition: transform 0.3s ease;
+    }
+
+    .animated-button:hover .arrow {
+        transform: translateX(10px); /* Move the arrow to the right on hover */
+    }
+}

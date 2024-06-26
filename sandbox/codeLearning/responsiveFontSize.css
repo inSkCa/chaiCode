@@ -1,0 +1,25 @@
+@layer responsive-font-size {
+    @media (max-width: 1200px) {
+        :root {
+            --font-size-base: 15px;
+        }
+    }
+
+    @media (max-width: 992px) {
+        :root {
+            --font-size-base: 14px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        :root {
+            --font-size-base: 13px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        :root {
+            --font-size-base: 12px;
+        }
+    }
+}
